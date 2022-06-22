@@ -14,14 +14,15 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="Software Engineering">Software Engineering</NavLinks>
+              <NavLinks to="software engineering">Software Engineering</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Data Science">Data Science</NavLinks>
+              <NavLinks to="data Science">Data Science</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="About">About</NavLinks>
+              <NavLinks to="about">About</NavLinks>
             </NavItem>
+            
             
           </NavMenu>
           <NavBtn>
