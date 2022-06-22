@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // import ShowcaseLanguages from './components/ShowcaseLanguages';
 import Home from './pages';
+import Cv from './pages/cv';
 // import Footer from '. /components/Footer'
 
 
@@ -16,10 +17,16 @@ function App() {
   return (
 
     <Router>
-      <Home/>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/cv" element={<Cv/>}/>
+      </Routes>
+      
+      {/* <Route path="/" element={<Home />} exact /> <Route path="/signin" element={<SigninPage />} exact /> */}
+      {/* <Home/> */}
     </Router>
     // <>
-
+    
       
     //   {/* <NameTag/> */}
     //   {/* <div>
