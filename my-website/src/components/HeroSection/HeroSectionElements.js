@@ -7,12 +7,10 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     z-index: 1;
-    margin-top: 40px;
-    
+    margin-top: 65px;
 
     :before {
         content: '';
@@ -21,12 +19,11 @@ export const HeroContainer = styled.div`
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0.9) 00%,   rgba(0,0,0,0.95) 100%), 
+        background: linear-gradient(180deg, rgba(0,0,0,0.5) 100%,   rgba(0,0,0,0.2) 100%), 
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
         z-index: 2;
     }
-    /* Add before: styles */
-`
+`;
 
 export const HeroBg = styled.div`
     position: absolute;

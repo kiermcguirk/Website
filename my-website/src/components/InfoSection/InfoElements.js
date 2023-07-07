@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-
+    //padding-top:10%; 
+    height: 100%;
     @media screen and (max-width: 768px){
         padding: 100px 0;
 
@@ -103,5 +104,11 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
+`
+
+export const SocialIcons = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
 `

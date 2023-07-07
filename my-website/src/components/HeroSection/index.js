@@ -31,7 +31,7 @@ const HeroSection = () => {
                     View Showcase {hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
-            <DevelopmentCard/>
+            {/* <DevelopmentCard/> */}
         </HeroContent>
         
     </HeroContainer>

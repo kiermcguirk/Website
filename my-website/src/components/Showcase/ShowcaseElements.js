@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const ShowcaseContainer = styled.div`
-    height: 800px;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #010606;
-
+    padding-bottom: 10%;
     @media screen and (max-width: 760px){
         height: 1100px;
 
@@ -45,7 +45,7 @@ export const ShowcaseCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: 240px;
-    padding: 30px;
+    padding: 23px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
@@ -57,11 +57,12 @@ export const ShowcaseCard = styled.div`
     }
 `
 
-export const ShowcaseIcon = styled.img`
-    height: 160px;
-    width: 160px;
-    margin-bottom:10px;
 
+
+export const ShowcaseIcon = styled.img`
+    height: ${(props) => props.size};
+    width: ${(props) => props.size};
+    margin-bottom: 10px;
 `
 
 export const ShowcaseH1 = styled.h1`

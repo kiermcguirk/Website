@@ -1,35 +1,22 @@
 import styled from 'styled-components';
 import {Link} from 'react-scroll';
-import PythonImg from '../images/python-logo.png';
-import JavaImg from '../images/java-logo.png';
-import ReactImg from '../images/react-logo.png';
+
 
 
 
 
 export const DevelopmentButtons = styled(Link)`
-    /* border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01bf71' : '#010606')};
-    white-space: nowrap;
-    padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({dark}) => (dark ? '#010606' : '#fff')};
-    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
-    outline: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;*/
+
     background-image: ${(props) =>
     `url(${require(`../images/${props.image}`)})`};
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    width: 5vw;
+    height: ${({primary}) => (primary ? '10px' : '10px')};
+    width: ${({primary}) => (primary ? '5px' : '10px')};
     background-color: transparent;
-    margin: 0px 5px;
+    margin: ${({primary}) => (primary ? '0px 10px' : '0px 0px')};
+    
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px 10px;
@@ -39,7 +26,8 @@ export const DevelopmentButtons = styled(Link)`
     cursor: pointer;
     &:hover{
         transition: all 0.2s ease-in-out;
-        background-color: ${({primary}) => (primary ? '#fff' : '#fff' )};
+        background-color: ${({primary}) => (primary ? '#fff' : 'none' )};
+        transform: scale(1.2);
 
     }
 
