@@ -4,13 +4,14 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
     background-color: #101522;
+    height: 20vh;
     
     
 
 `
 
 export const FooterWrapper = styled.div`
-    padding: 48px 24px;
+    //padding: 48px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;

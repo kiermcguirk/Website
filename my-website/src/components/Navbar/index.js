@@ -43,24 +43,25 @@ const Navbar = ({toggle}) => {
                     duration={500}
                     spy={true}
                     exact='true'
-                    offset={-79}
+                    offset={-80}
                     activeClass="active"
                   >
                     About
-                  </NavLinks>
+              </NavLinks>
           </NavItem>
           <NavItem>
-          <NavLinks
+                <NavLinks
                     to='showcase'
                     smooth={true}
                     duration={500}
                     spy={true}
                     exact='true'
-                    offset={-79}
+                    offset={-80}
                     activeClass="active"
-                  >Showcase</NavLinks>
+                >Showcase
+                </NavLinks>
             </NavItem>
-            {/* <NavItem>
+            {/* <NavItem> Kier is smelly :)
               <NavLinks to="software engineering" smooth={true} duration={500} spy={true} exact='true' offset={-80} >Software Engineering</NavLinks>
             </NavItem>
             <NavItem>

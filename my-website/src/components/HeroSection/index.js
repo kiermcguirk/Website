@@ -24,9 +24,17 @@ const HeroSection = () => {
                 Showcasing projects in both the Software Engineering and Data Science space
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
-                primary='true'
-                dark='true'
+                <Button
+                    onMouseEnter={onHover} onMouseLeave={onHover}
+                    primary='true'
+                    dark='true'
+                    to='showcase'
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact='true'
+                    offset={-80}
+                    activeClass="active"
                 >
                     View Showcase {hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>

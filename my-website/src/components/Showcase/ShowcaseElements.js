@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ShowcaseContainer = styled.div`
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

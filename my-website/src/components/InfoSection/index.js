@@ -20,7 +20,7 @@ const InfoSection = ({lightBg, imgStart, id, headline, topLine, buttonLabel, img
                                 <SocialIconLink href="//www.linkedin.com/in/kier-mcguirk-7741031b7/" target="_blank" aria-label="LinkedIn">
                                     <FaLinkedin/>
                                 </SocialIconLink>
-                                <SocialIconLink href="//www.github.com/kiermcguirk" target="_blank" aria-label="Email">
+                                <SocialIconLink href="mailto:kiermcguirk@gmail.com" target="_blank" aria-label="Email">
                                     <MdEmail/>
                                 </SocialIconLink>
                                 <SocialIconLink href="//github.com/kiermcguirk" target="_blank" aria-label="Github">
@@ -28,7 +28,7 @@ const InfoSection = ({lightBg, imgStart, id, headline, topLine, buttonLabel, img
                                 </SocialIconLink>
                             </SocialIcons>
                             <BtnWrap>
-                                <Button to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                                <Button href="mailto:kiermcguirk@gmail.com" primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
