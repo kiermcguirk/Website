@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import ShowcaseLanguages from './components/ShowcaseLanguages';
 import Home from './pages';
 import Cv from './pages/cv';
+import Thesis from './pages/thesis';
 // import Footer from '. /components/Footer'
 
 
@@ -18,8 +19,9 @@ function App() {
 
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home/>} /> 
         <Route path="/cv" element={<Cv/>}/>
+        <Route path="/thesis" element={<Thesis/>}/>        
       </Routes>
       
       {/* <Route path="/" element={<Home />} exact /> <Route path="/signin" element={<SigninPage />} exact /> */}

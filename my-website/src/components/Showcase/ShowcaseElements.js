@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { Link as LinkR} from 'react-router-dom'
 export const ShowcaseContainer = styled.div`
     height: 100vh;
     display: flex;
@@ -35,6 +35,14 @@ export const ShowcaseWrapper = styled.div`
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
+`
+
+export const NavCard = styled(LinkR)`
+    text-decoration: none; /* Remove the underline */
+    text-decoration: none; /* Remove the underline */
+    &:visited {
+    color: black; /* Set the visited link text color */
+  }
 `
 
 export const ShowcaseCard = styled.div`

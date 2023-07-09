@@ -70,7 +70,7 @@ const Navbar = ({toggle}) => {
           </NavMenu>
           <NavBtn>
               <NavBtnLink to="/cv">View CV</NavBtnLink>
-            </NavBtn>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </IconContext.Provider>

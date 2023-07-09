@@ -1,7 +1,7 @@
 import React from 'react';
 import PdfViewer from '../components/PdfViewer';
-const Cv = () => {
-    const pdfFilePath = require('../pdf/cv.pdf');
+const Thesis = () => {
+    const pdfFilePath = require('../pdf/thesis.pdf');
 
     return (
         <>
@@ -10,4 +10,4 @@ const Cv = () => {
     );
 }
 
-export default Cv;
+export default Thesis;
