@@ -8,14 +8,11 @@ const Sidebar = ({isOpen, toggle}) => {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to="Software Engineering" onClick={toggle}>
-                Software Engineering
+            <SidebarLink to="about" onClick={toggle}>
+                About
               </SidebarLink>
-            <SidebarLink to="Data Science" onClick={toggle}>
-                Data Science
-            </SidebarLink>
-            <SidebarLink to="About" onClick={toggle}>
-              About
+            <SidebarLink to="showcase" onClick={toggle}>
+                Showcase
             </SidebarLink>
           </SidebarMenu>
           <SideBtnWrap>
