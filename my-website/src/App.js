@@ -17,7 +17,7 @@ import Thesis from './pages/thesis';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/Website">
       <Routes>
         <Route path="/" element={<Home/>} /> 
         <Route path="/cv" element={<Cv/>}/>
