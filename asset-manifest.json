@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.400c2836.css",
+    "main.js": "/Website/static/js/main.385c162c.js",
+    "static/js/787.bbe01249.chunk.js": "/Website/static/js/787.bbe01249.chunk.js",
+    "static/media/matrix.mp4": "/Website/static/media/matrix.cac51f866e44fd52b9eb.mp4",
+    "static/media/thesis.pdf": "/Website/static/media/thesis.89125a43f10a8d5d66ce.pdf",
+    "static/media/react-logo-svg.svg": "/Website/static/media/react-logo-svg.40bf8986453edf868215.svg",
+    "static/media/ucd-logo.png": "/Website/static/media/ucd-logo.c978d87cd4b2402163a1.png",
+    "static/media/react-logo.png": "/Website/static/media/react-logo.fb59dfc6bb1bac6b0ad0.png",
+    "static/media/scrabble-pic.png": "/Website/static/media/scrabble-pic.1f06616887ab79838006.png",
+    "static/media/profile-pic.png": "/Website/static/media/profile-pic.ee96d34e383d003b6cac.png",
+    "static/media/python-logo.png": "/Website/static/media/python-logo.d8b377f05522bf35de36.png",
+    "static/media/profile-picture.jfif": "/Website/static/media/profile-picture.3424d4ca71bb79d965e7.jfif",
+    "static/media/java-logo.png": "/Website/static/media/java-logo.fdabd4e11f1235e4e8e0.png",
+    "static/media/cv.pdf": "/Website/static/media/cv.555dc5d1b42272b74e05.pdf",
+    "static/media/matrix code nfi.ttf": "/Website/static/media/matrix code nfi.77b36b5eb15b0d99bd9a.ttf",
+    "static/media/leetcode-logo.png": "/Website/static/media/leetcode-logo.c79f333b12595d3eec8f.png",
+    "static/media/svg-1.svg": "/Website/static/media/svg-1.1cd1c486235968495a67b9afc7e64e55.svg",
+    "static/media/mysql-logo.png": "/Website/static/media/mysql-logo.91eb21e798b8f8e27f70.png",
+    "static/media/js-logo.png": "/Website/static/media/js-logo.5747cf3396ea06073246.png",
+    "static/media/hackerrank-logo.png": "/Website/static/media/hackerrank-logo.f192c423fefe94167c61.png",
+    "index.html": "/Website/index.html",
+    "main.400c2836.css.map": "/Website/static/css/main.400c2836.css.map",
+    "main.385c162c.js.map": "/Website/static/js/main.385c162c.js.map",
+    "787.bbe01249.chunk.js.map": "/Website/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.400c2836.css",
+    "static/js/main.385c162c.js"
+  ]
+}
